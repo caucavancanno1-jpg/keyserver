@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 3000;
 const ADMIN_PASSWORD = "cuongbypasslogin"; 
 
 // Link kết nối MongoDB
-const MONGO_URI = process.env.MONGO_URI || "YOUR_MONGODB_CONNECTION_STRING";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://caucavancanno1_db_user:bypassff@cuong.20cjz2j.mongodb.net/?appName=Cuong
+    ";
 
 console.log("==================================================");
 console.log("⏳ [HỆ THỐNG] Đang khởi động máy chủ...");
